@@ -1,0 +1,103 @@
+@media screen and (max-width: 1216px) {
+    #main-container, #bottom-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    #head-picture {
+        background-position: center;
+        background-size: cover;
+    }
+    #main-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    #main-block {
+        grid-template-columns: 1fr;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #main-picture1 img {
+        max-width: 100%;
+    }
+    #main-picture2 img {
+        max-width: 100%;
+    }
+
+    #bottom-blocks {
+        grid-template-columns: repeat(auto-fill, minmax(290px, 310px));
+        justify-content: center;
+    }
+
+    #bottom-tittle {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 818px) {
+    #main-block {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #footer-container {
+        grid-template-columns: repeat(auto-fill, minmax(205px, 345px));
+    }
+    #footer-actions {
+        order: 1;
+    }
+    #footer-container .header-title {
+        order: 2;
+    }
+    #reserved {
+        order: 3;
+    }
+    #footer-container {
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        grid-template-columns: 300px;
+    }
+}
+@media screen and (max-width: 690px) {
+    #main-container {
+
+    }
+    #main-title {
+        font-size: 30px;
+    }
+    #main-items .main-item-title {
+        font-size: 17px;
+    }
+    #main-items .main-item-text {
+        font-size: 12px;
+    }
+
+    #footer-container {
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+@media screen and (max-width: 589px) {
+    #main-items {
+        grid-template-columns: 300px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #head-links-container {
+        flex-direction: column;
+    }
+    #head-links-container a {
+        margin-bottom: 10px;
+    }
+}
+
+

@@ -1,0 +1,273 @@
+@font-face {
+    font-family: MullerRegular;
+    src: url("../fons/MullerRegular.ttf");
+}
+
+@font-face {
+    font-family: MullerRegularItalic;
+    src: url("../fons/MullerRegularItalic.ttf");
+}
+
+@font-face {
+    font-family: MullerMedium;
+    src: url("../fons/MullerMedium.ttf");
+}
+
+@font-face {
+    font-family: MullerBold;
+    src: url("../fons/MullerBold.ttf");
+}
+
+@font-face {
+    font-family: MullerMediumItalic;
+    src: url("../fons/MullerMediumItalic.ttf");
+}
+
+@font-face {
+    font-family: YesevaOne;
+    src: url("../fons/yeseva-one.ttf");
+}
+
+span {
+    font-family: MullerRegular;
+}
+
+body {
+    background: #ffffff;
+    color: #996e1c;
+    margin: 0;
+}
+
+#header {
+    border-bottom: 1px solid #ebe1cf;
+}
+
+#header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.header-title {
+    text-align: center;
+    font-size: 30px;
+    line-height: 25px;
+    max-width: 285px;
+    margin: 0 auto;
+    padding-bottom: 45px;
+    padding-top: 45px;
+    font-family: YesevaOne;
+
+}
+
+.header-title span {
+    font-size: 11px;
+}
+
+
+#head-links {
+    margin: 0 auto;
+    max-width: 1200px;
+
+}
+
+#head-links-container {
+    text-align: center;
+    margin: 30px 50px;
+    font-family: MullerMedium;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+}
+
+#head-links-container a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #996e1c;
+
+}
+
+#head-links-container a:hover {
+    color: #dbb56f;
+}
+
+#head-picture {
+    background-size: cover;
+    background-position: center;
+    background: url("../images/picture.png");
+    height: 800px;
+    text-align: center;
+
+}
+
+
+#main-container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-bottom: 120px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding-top: 100px;
+    grid-gap: 10px;
+}
+
+#main-title {
+    max-width: 580px;
+    font-size: 45px;
+    margin: 0;
+    line-height: 55px;
+    font-family: YesevaOne;
+    align-self: center;
+    padding-bottom: 40px;
+}
+
+#main-description {
+    max-width: 500px;
+    line-height: 20px;
+    padding-bottom: 25px;
+    font-family: MullerRegular;
+}
+
+
+#main-items {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 283px 283px;
+}
+
+#main-items .main-item {
+    box-sizing: border-box;
+    width: 278px;
+    margin-top: 25px;
+}
+
+#main-items .main-item .main-item-icon {
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-item-icon:hover {
+    color: #000000;
+}
+
+#main-items .main-item .main-item-title {
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 11px;
+    font-family: MullerBold;
+}
+
+#main-items .main-item .main-item-text {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: MullerRegular;
+}
+#main-picture1 {
+    padding-top: 95px;
+    }
+#main-picture2 {
+    padding-top: 95px;
+}
+
+/*
+#main-pictures {
+    vertical-align: bottom;
+    box-sizing: border-box;
+    font-size: 0;
+}
+
+#main-pictures .main-picture {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#main-pictures .main-picture:first-child {
+    margin-right: 20px;
+}
+
+ */
+
+
+#bottom {
+    background: #faf7f2;
+}
+
+#bottom-container {
+    padding-top: 115px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#bottom-tittle {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 69px;
+    font-family: YesevaOne;
+}
+
+#bottom-blocks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    font-size: 0;
+    grid-gap: 15px;
+}
+
+#bottom-blocks .bottom-block {
+    box-sizing: border-box;
+    height: 415px;
+}
+
+#bottom-blocks .bottom-block:last-child {
+    margin: 0;
+}
+
+#bottom-blocks .bottom-block .bottom-names {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #c5b698;
+    font-family: MullerMediumItalic;
+}
+
+
+#footer {
+    background: #f1d2bd;
+}
+
+#footer-container {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+}
+
+#footer-actions {
+    align-self: center;
+}
+
+#footer-actions svg {
+    margin-right: 15px;
+    font-size: 30px;
+}
+
+#footer-actions svg:hover {
+    fill: #7d5a1b;
+    cursor: pointer;
+}
+
+#footer-container .header-title {
+
+    padding-bottom: 20px;
+}
+
+#reserved {
+    font-size: 11px;
+    align-self: center;
+    font-family: MullerRegularItalic;
+}
